@@ -26,3 +26,5 @@ This project focuses completely on static frontend development. No JavaScript or
 It also helped improve confidence, creativity, and attention to detail while practicing real world web design standards and preparing for future learning opportunities and professional growth in frontend development.
 
 #OUTPUT
+
+<img width="1366" height="684" alt="Image" src="https://github.com/user-attachments/assets/9d19c7f3-6e6e-4803-8611-11315a9b7f36" />
