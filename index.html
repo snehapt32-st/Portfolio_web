@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">MyPortfolio</h2>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <h1>Hello, I'm <span>Sneha</span></h1>
+    <p>Aspiring Web Developer & Programmer</p>
+    <button onclick="location.href='#contact'">Hire Me</button>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate student interested in web development, programming,
+      and creative design. I enjoy building simple, clean, and user-friendly
+      applications while continuously learning new technologies.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill">Web Development</div>
+      <div class="skill">Python</div>
+      <div class="skill">C</div>
+      <div class="skill">C++</div>
+      <div class="skill">Java</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>My Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>Weather Application</h3>
+        <p>A simple weather app using API to display real-time data.</p>
+      </div>
+      <div class="project-card">
+        <h3>Quiz Application</h3>
+        <p>Interactive quiz app built with HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>E-Learning UI</h3>
+        <p>User Interface of the online education website.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Sneha Tiwari | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
